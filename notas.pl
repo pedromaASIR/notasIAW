@@ -4,9 +4,10 @@ if($ENV{'QUERY_STRING'} eq "") {
    print "<h1>Elige entre los posibles valores de shell</h1>
           <h3>Dime el prefijo de la asignatura</h3>
           <form name=\"search\">";
-          print "<input type=\"text\" name=\"prefijo\">";
+          print "<input type=\"text\" name=\"asignatura\">";
           print "<input type=\"submit\" value\"Buscar\" />";
 }else {
+#Esta linea es la que debes modificar por si tu fichero no esta en /home/usuario/notas.txt, lo que hay entre comillas. 
   open T, "/home/usuario/notas.txt";
   while(<T>) {
   chomp;
