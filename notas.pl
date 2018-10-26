@@ -5,7 +5,7 @@ if($ENV{'QUERY_STRING'} eq "") {
           <h3>Dime el prefijo de la asignatura</h3>
           <form name=\"search\">";
           print "<input type=\"text\" name=\"asignatura\">";
-          print "<input type=\"submit\" value\"Buscar\" />";
+          print "<input type=\"submit\" value\"enviar\" />";
 }else {
 #Esta linea es la que debes modificar por si tu fichero no esta en /home/usuario/notas.txt, lo que hay entre comillas. 
   open T, "/home/usuario/notas.txt";
