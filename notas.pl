@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 print "Content-Type: text/html\n\n";
 if($ENV{'QUERY_STRING'} eq "") {
-   print "<h1>Elige entre los posibles valores de shell</h1>
+   print "<h1>Hola, bienvenido a este script simple en perl</h1>
           <h3>Dime el prefijo de la asignatura</h3>
           <form name=\"search\">";
           print "<input type=\"text\" name=\"asignatura\">";
