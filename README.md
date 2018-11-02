@@ -10,8 +10,7 @@ Para poder ejecutarlo necesitas:
   - Modulo cgi-bin habilitado y funcionando
   - Copiar el archivo notas.pl a la carpeta /usr/lib/cgi-bin
   - Copiar el archivo notas.txt a la home de nuestro usuario.
-###### Si nuestro usuario no se llama usuario debemos editar el codigo en la linea 10, cambiando el lugar donde buscara el archivo a nuestro directorio
-
+###### Si nuestro usuario no se llama usuario debemos editar el codigo donde nos dira el codigo (Viene la siguiente linea:Cambia esta linea si tu nombre de usuario no es USUARIO) poniendo la ruta de donde se encuentre nuestro fichero notas.txt
 # ¿De donde surge esta idea?
 Esta idea esta sacada de un ejercicio de script en bash mandado por Clara y adaptado al lenguaje perl.
 
