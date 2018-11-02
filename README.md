@@ -1,6 +1,7 @@
-# Script en perl notas
+# Script en perl notas.pl
 Con este script mostraremos los datos de un fichero el cual contiene prefijo:nota:alumno, filtrando por el prefijo de la asignatura todas las filas que sean de esa asignatura.
 
+# Script en perl notasformu.pl
 Con el script notasformu obtendremos lo mismo pero nos mostrara dos formularios, el primero para decir nuestro nombre y el segundo para decir la asignatura que queremos obtener los datos.
 
 Para poder ejecutarlo necesitas:
@@ -15,4 +16,4 @@ Para poder ejecutarlo necesitas:
 Esta idea esta sacada de un ejercicio de script en bash mandado por Clara y adaptado al lenguaje perl.
 
 
-En mi caso no he conseguido hacerlo funcionar del todo, ya que a la hora de mostrarme la solucion, me muestra el 2 formulario junto a la solucion.
+#####En mi caso no he conseguido hacerlo funcionar del todo, ya que a la hora de mostrarme la solucion, me muestra el 2 formulario junto a la solucion.
