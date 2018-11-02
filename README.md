@@ -11,8 +11,6 @@ Para poder ejecutarlo necesitas:
   - Copiar el archivo notas.pl a la carpeta /usr/lib/cgi-bin
   - Copiar el archivo notas.txt a la home de nuestro usuario.
 ###### Si nuestro usuario no se llama usuario debemos editar el codigo donde nos dira el codigo (Viene la siguiente linea:Cambia esta linea si tu nombre de usuario no es USUARIO) poniendo la ruta de donde se encuentre nuestro fichero notas.txt
-# ¿De donde surge esta idea?
-Esta idea esta sacada de un ejercicio de script en bash mandado por Clara y adaptado al lenguaje perl.
 
 
 _En mi caso no he conseguido hacerlo funcionar del todo, ya que a la hora de mostrarme la solucion, me muestra el 2 formulario junto a la solucion._
