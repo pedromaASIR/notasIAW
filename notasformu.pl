@@ -21,6 +21,7 @@ else
   @campo1=split("=",$ENV{'QUERY_STRING'});
   if($campo1[0] eq "asignatura"){
   #Aqui contesta al formulario para mostrar solo
+  #Cambia esta linea si tu nombre de usuario no es USUARIO
   open F, "/home/usuario/notas.txt";
   while(<F>) {
     chomp;
