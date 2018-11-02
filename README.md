@@ -16,4 +16,4 @@ Para poder ejecutarlo necesitas:
 Esta idea esta sacada de un ejercicio de script en bash mandado por Clara y adaptado al lenguaje perl.
 
 
-#####En mi caso no he conseguido hacerlo funcionar del todo, ya que a la hora de mostrarme la solucion, me muestra el 2 formulario junto a la solucion.
+_En mi caso no he conseguido hacerlo funcionar del todo, ya que a la hora de mostrarme la solucion, me muestra el 2 formulario junto a la solucion._
