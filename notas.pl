@@ -8,14 +8,14 @@ if($ENV{'QUERY_STRING'} eq "") {
           print "<input type=\"submit\" value=\"enviar\" />";
 }else {
 #Esta linea es la que debes modificar por si tu fichero no esta en /home/usuario/notas.txt, lo que hay entre comillas. 
+  @campo1=split("=",$ENV{'QUERY_STRING'});
   open T, "/home/usuario/notas.txt";
   while(<T>) {
-  chomp;
-  @campos=split(":");
-  @campo1=split("=",$ENV{'QUERY_STRING'});
-  if($campo1[1] eq $campos[0])
-  {
-   print "El alumno $campos[2] tiene un $campos[1] en $campos[0]<br>";
-  }
+    chomp;
+    @campos=split(":");
+    if($campo1[1] eq $campos[0])
+    {
+      print "El alumno $campos[2] tiene un $campos[1] en $campos[0]<br>";
+    }
   }
 }
