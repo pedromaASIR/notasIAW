@@ -14,7 +14,7 @@ Con el script notasformu obtendremos lo mismo pero nos mostrara dos formularios,
   
   - Copiar el archivo notas.txt a la home de nuestro usuario.
   
-###### Si nuestro usuario no se llama usuario debemos editar el codigo donde nos dira el codigo (Viene la siguiente linea:Cambia esta linea si tu nombre de usuario no es USUARIO) poniendo la ruta de donde se encuentre nuestro fichero notas.txt
+###### Si nuestro usuario no se llama usuario debemos editar el codigo donde nos dira el codigo (Viene una indicacion para saber que linea es) poniendo la ruta de donde se encuentre nuestro fichero notas.txt
 
 
-_En mi caso no he conseguido hacerlo funcionar del todo, ya que a la hora de mostrarme la solucion, me muestra el 2 formulario junto a la solucion._
+
